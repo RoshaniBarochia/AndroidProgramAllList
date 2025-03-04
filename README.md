@@ -1,7 +1,7 @@
 # AndroidProgramAllList
 
 ===>Data Structures & Algorithms (DSA)===>
-Array & String Manipulation:
+Array & String Manipulation.
 Find the largest/smallest element in an array.
 Find duplicates in an array.
 Reverse an array without using extra space.
