@@ -2,17 +2,6 @@ package com.app.listdatawithapi
 
 import java.util.Arrays
 
-//Find the largest/smallest element in an array.
-fun findMinMax(arr: IntArray): Pair<Int, Int> {
-    var max = arr[0]
-    var min = arr[0]
-
-    for (num in arr) {
-        if (num > max) max = num
-        if (num < min) min = num
-    }
-    return Pair(min, max)
-}
 
 fun main() {
 
@@ -156,7 +145,19 @@ fun main() {
 
     //Find the longest common prefix of an array of strings.
     val strArr= arrayOf("flower","flow","flight")
-    println(longestCommonPrefix(strArr))
+    println(longestCommonPrefixInArray(strArr))
+}
+
+//Find the largest/smallest element in an array.
+fun findMinMax(arr: IntArray): Pair<Int, Int> {
+    var max = arr[0]
+    var min = arr[0]
+
+    for (num in arr) {
+        if (num > max) max = num
+        if (num < min) min = num
+    }
+    return Pair(min, max)
 }
 
 //Reverse a String Without Using Built-in Functions (Kotlin)
