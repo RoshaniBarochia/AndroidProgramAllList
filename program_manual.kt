@@ -6,7 +6,6 @@ import java.util.Arrays
 fun main() {
 
     //Find the largest/smallest element in an array.
-
     val numbers = intArrayOf(10, 25, 5, 99, 1, 56)
     val (min, max) = findMinMax(numbers)
 
@@ -14,8 +13,7 @@ fun main() {
     println("Smallest element: $min") // Output: 1
 
 
-    ////Find duplicates in an array.
-
+    //Find duplicates in an array.
     val numbersD = intArrayOf(1, 2, 3, 4, 5, 2, 3, 6, 7, 3)
     val duplicates = findDuplicates(numbersD)
 
@@ -48,7 +46,6 @@ fun main() {
 
     //calling way of class method is not like usual swap function
     //num1 swapWith num2
-
     //calling the actual swap function.
     swap(num1, num2)
 
@@ -130,7 +127,7 @@ fun main() {
     findPairWithDifference(arrDiff, 7)  // Output: Pair: (5, 12)
 
 
-    //3️⃣Move Zeros to End
+    //3️⃣ Move Zeros to End
     val arrZero = intArrayOf(0, 1, 0, 3, 12, 0)
     moveZerosToEnd(arrZero)
     println(arr.joinToString())  // Output: 1, 3, 12, 0, 0, 0
